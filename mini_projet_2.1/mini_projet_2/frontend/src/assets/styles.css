@@ -1,0 +1,35 @@
+
+/* src/assets/styles.css */
+
+/* 1. Palette Coolors */
+:root {
+    --color-1: #d3f8e2;
+    --color-2: #e4c1f9;
+    --color-3: #f694c1;
+    --color-4: #ede7b1;
+    --color-5: #a9def9;
+}
+
+/* 2. Reset minimal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-1);
+    color: #333;
+}
+
+/* 4. Utils */
+.bg-c2 { background-color: var(--color-2) !important; }
+.bg-c3 { background-color: var(--color-3) !important; }
+.bg-c4 { background-color: var(--color-4) !important; }
+.bg-c5 { background-color: var(--color-5) !important; }
+
+.text-center { text-align: center !important; }
+.p-2 { padding: 1rem !important; }
+.mt-2 { margin-top: 1rem !important; }
